@@ -33,6 +33,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:555_badge
 LIBS:dk_Battery_Holders_Clips_Contacts
+LIBS:dk_Slide_Switches
 LIBS:555_badge-cache
 EELAYER 25 0
 EELAYER END
@@ -192,25 +193,6 @@ F 3 "" H 8000 3900 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EG1218 S?1
-U 1 1 5A1B3B28
-P 3000 3300
-F 0 "S?1" H 2800 3600 60  0000 C CNN
-F 1 "EG1218" H 3000 3100 60  0000 C CNN
-F 2 "digikey-footprints:EG1218" H 3200 3500 60  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 3200 3600 60  0001 L CNN
-F 4 "EG1903-ND" H 3200 3700 60  0001 L CNN "Digi-Key_PN"
-F 5 "EG1218" H 3200 3800 60  0001 L CNN "MPN"
-F 6 "Switches" H 3200 3900 60  0001 L CNN "Category"
-F 7 "Slide Switches" H 3200 4000 60  0001 L CNN "Family"
-F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 3200 4100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 3200 4200 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH SLIDE SPDT 200MA 30V" H 3200 4300 60  0001 L CNN "Description"
-F 11 "E-Switch" H 3200 4400 60  0001 L CNN "Manufacturer"
-	1    3000 3300
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR01
 U 1 1 5A24A517
 P 4500 4450
@@ -357,7 +339,7 @@ Wire Wire Line
 	4950 3600 4750 3600
 Connection ~ 4750 3700
 Wire Wire Line
-	5500 3100 5500 2650
+	5500 2650 5500 3100
 Wire Wire Line
 	5600 3100 5600 2850
 Wire Wire Line
@@ -365,11 +347,6 @@ Wire Wire Line
 Connection ~ 5500 2850
 Wire Wire Line
 	5500 4100 5500 4450
-Wire Wire Line
-	5600 4100 5600 4300
-Wire Wire Line
-	5600 4300 5500 4300
-Connection ~ 5500 4300
 Wire Wire Line
 	6150 3600 6200 3600
 Wire Wire Line
@@ -393,7 +370,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 4100 8100 4400
 Wire Wire Line
-	8100 3700 8100 3450
+	8100 3450 8100 3700
 Wire Wire Line
 	8100 3600 8650 3600
 Wire Wire Line
@@ -415,9 +392,9 @@ $Comp
 L BS-7 BAT1
 U 1 1 5A402B00
 P 3000 4050
-F 0 "BAT1" H 3000 4250 60  0000 C CNN
+F 0 "BAT1" V 3000 4300 60  0000 C CNN
 F 1 "BS-7" H 3000 3850 60  0000 C CNN
-F 2 "555_badge:BS-7" H 3200 4250 60  0001 L CNN
+F 2 "digikey-footprints:BS-7" H 3200 4250 60  0001 L CNN
 F 3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" H 3200 4350 60  0001 L CNN
 F 4 "BS-7-ND" H 3200 4450 60  0001 L CNN "Digi-Key_PN"
 F 5 "BS-7" H 3200 4550 60  0001 L CNN "MPN"
@@ -428,6 +405,25 @@ F 9 "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" H 320
 F 10 "HOLDER COINCELL 2032 RETAINRCLIP" H 3200 5050 60  0001 L CNN "Description"
 F 11 "MPD (Memory Protection Devices)" H 3200 5150 60  0001 L CNN "Manufacturer"
 	1    3000 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L EG1218 S1
+U 1 1 5A42DE0F
+P 3000 3300
+F 0 "S1" V 2800 3600 60  0000 C CNN
+F 1 "EG1218" H 3000 3100 60  0000 C CNN
+F 2 "digikey-footprints:EG1218" H 3200 3500 60  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 3200 3600 60  0001 L CNN
+F 4 "EG1903-ND" H 3200 3700 60  0001 L CNN "Digi-Key_PN"
+F 5 "EG1218" H 3200 3800 60  0001 L CNN "MPN"
+F 6 "Switches" H 3200 3900 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 3200 4000 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 3200 4100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 3200 4200 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE SPDT 200MA 30V" H 3200 4300 60  0001 L CNN "Description"
+F 11 "E-Switch" H 3200 4400 60  0001 L CNN "Manufacturer"
+	1    3000 3300
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC

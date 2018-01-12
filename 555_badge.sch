@@ -42,7 +42,7 @@ encoding utf-8
 Sheet 1 1
 Title "555 Badge"
 Date "2017-11-26"
-Rev "v01"
+Rev "v00a"
 Comp "Shawn Hymel"
 Comment1 ""
 Comment2 ""
@@ -347,11 +347,6 @@ Wire Wire Line
 Connection ~ 5500 2850
 Wire Wire Line
 	5500 4100 5500 4450
-Wire Wire Line
-	5600 4100 5600 4300
-Wire Wire Line
-	5600 4300 5500 4300
-Connection ~ 5500 4300
 Wire Wire Line
 	6150 3600 6200 3600
 Wire Wire Line
