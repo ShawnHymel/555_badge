@@ -635,7 +635,7 @@
     (fp_text reference R2 (at 9.398 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 220k (at 3.81 0 90) (layer F.Fab)
+    (fp_text value 330k (at 3.81 0 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
