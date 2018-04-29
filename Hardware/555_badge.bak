@@ -33,7 +33,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:555_badge
 LIBS:dk_Battery_Holders_Clips_Contacts
-LIBS:dk_Slide_Switches
 LIBS:555_badge-cache
 EELAYER 25 0
 EELAYER END
@@ -42,7 +41,7 @@ encoding utf-8
 Sheet 1 1
 Title "555 Badge"
 Date "2017-11-26"
-Rev "v00a"
+Rev "v02"
 Comp "Shawn Hymel"
 Comment1 ""
 Comment2 ""
@@ -76,7 +75,7 @@ L R R2
 U 1 1 5A1B2D1B
 P 4500 3750
 F 0 "R2" V 4580 3750 50  0000 C CNN
-F 1 "220k" V 4500 3750 50  0000 C CNN
+F 1 "330k" V 4500 3750 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4430 3750 50  0001 C CNN
 F 3 "" H 4500 3750 50  0001 C CNN
 	1    4500 3750

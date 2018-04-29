@@ -1,4 +1,4 @@
-update=12/26/2017 4:26:36 PM
+update=4/29/2018 11:33:38 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,4 +63,4 @@ LibName31=contrib
 LibName32=valves
 LibName33=555_badge
 LibName34=C:/Users/sgmustadio/Documents/GitHub/digikey-kicad-library/symbols/dk_Battery_Holders_Clips_Contacts
-LibName35=C:/Users/sgmustadio/Documents/KiCad/working_lib/digikey-kicad-library/symbols/dk_Slide_Switches
+LibName35=C:/Users/sgmustadio/Documents/KiCad/Libraries/digikey-kicad-library-master/digikey-symbols/dk_Slide-Switches

@@ -33,7 +33,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:555_badge
 LIBS:dk_Battery_Holders_Clips_Contacts
-LIBS:dk_Slide_Switches
 LIBS:555_badge-cache
 EELAYER 25 0
 EELAYER END
@@ -42,12 +41,12 @@ encoding utf-8
 Sheet 1 1
 Title "555 Badge"
 Date "2017-11-26"
-Rev "v00a"
+Rev "v02"
 Comp "Shawn Hymel"
 Comment1 ""
-Comment2 ""
-Comment3 "https://creativecommons.org/licenses/by/4.0/"
-Comment4 "License: CC BY 4.0"
+Comment2 "creativecommons.org/licenses/by/4.0/"
+Comment3 "License: CC BY 4.0"
+Comment4 "Author: Shawn Hymel"
 $EndDescr
 $Comp
 L 7555 U1
