@@ -1,6 +1,6 @@
 555 Badge
 =========
-Badge project based on a 555 timer circuit. Users can follow along with the Digi-Key video series to design and fabricate their own badge PCB. This repository stores all the completed PCB design files.
+Badge project based on a 555 timer circuit. Users can follow along with the Digi-Key video series to design and fabricate their own badge PCB. This repository stores all the completed PCB design files. Click [here to watch the video series](https://www.youtube.com/watch?v=vaCVh2SAZY4&index=1&list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O&t=0s).
 
 [![Introduction to KiCad - Design your own PCB](https://img.youtube.com/vi/vaCVh2SAZY4/0.jpg)](https://www.youtube.com/watch?v=vaCVh2SAZY4&index=1&list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O&t=0s)
 
